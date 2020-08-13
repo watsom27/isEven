@@ -4,6 +4,7 @@ file.write("def isEven(nbr):\n    if(nbr == '0'): return False\n")
 output = ""
 
 for i in range(1,10000000):
+    print(i)
     truefalse = (i%2==0)
     file.write("    if(nbr == '")
     file.write(str(i))
